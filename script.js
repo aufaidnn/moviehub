@@ -120,18 +120,20 @@ function displayMovies(movieList) {
                 </h3>
 
                 <div class="movie-meta">
-
                     <span>${movie.year}</span>
-
                     <span>•</span>
-
                     <span>${movie.genre}</span>
-
                 </div>
+
+                <button
+                    class="order-btn"
+                    onclick="orderMovie('${movie.title.replace(/'/g, "\\'")}', '${movie.year}')"
+                >
+                    ORDER MOVIE →
+                </button>
 
             </div>
         `;
-
 
         grid.appendChild(card);
 
@@ -238,6 +240,22 @@ function sendRequest(event) {
         "_blank"
     );
 
+}
+
+function orderMovie(title, year) {
+
+    const whatsappNumber = "6281932140239";
+
+    const message =
+        `🎬 MOVIE ORDER%0A%0A` +
+        `Movie: ${title}%0A` +
+        `Year: ${year}%0A%0A` +
+        `Hi, saya mau order movie ini.`;
+
+    window.open(
+        `https://wa.me/${whatsappNumber}?text=${message}`,
+        "_blank"
+    );
 }
 
 
