@@ -61,6 +61,22 @@ const movies = [
         genre: "Action • Superhero",
         poster: "assets/spiderman-no-way-home.jpg",
         status: "AVAILABLE"
+    },
+
+    {
+        title: "Black Panther: Wakanda Forever",
+        year: "2022",
+        genre: "Action • Adventure • Superhero",
+        poster: "assets/black-panther-wakanda-forever.jpg",
+        status: "COMING SOON"
+    },
+
+    {
+        title: "Deadpool & Wolverine",
+        year: "2024",
+        genre: "Action • Superhero • Comedy",
+        poster: "assets/deadpool-wolverine.jpg",
+        status: "AVAILABLE"
     }
 ];
 
