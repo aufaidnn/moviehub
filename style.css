@@ -36,14 +36,14 @@ body {
 }
 
 .logo {
-    font-weight: 800;
-    font-size: 22px;
-    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
 }
 
-.logo span,
-.footer-logo span {
-    color: #b72b2b;
+.logo img {
+    height: 42px;
+    width: auto;
+    display: block;
 }
 
 .navbar nav {
