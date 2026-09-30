@@ -77,6 +77,14 @@ const movies = [
         genre: "Action • Superhero • Comedy",
         poster: "assets/deadpool-wolverine.jpg",
         status: "AVAILABLE"
+    },
+
+    {
+        title: "Resident Evil",
+        year: "2026",
+        genre: "Action • Horror",
+        poster: "assets/residentevil.jpg",
+        status: "AVAILABLE"
     }
 ];
 
