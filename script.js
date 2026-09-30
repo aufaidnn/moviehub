@@ -93,6 +93,14 @@ const movies = [
         genre: "Music • Mystery",
         poster: "assets/fourhandstwosonatas.jpg",
         status: "AVAILABLE"
+    },
+
+    {
+        title: "Moana",
+        year: "2026",
+        genre: "Adventure • Fantasy",
+        poster: "assets/moanala.jpg",
+        status: "AVAILABLE"
     }
 ];
 
