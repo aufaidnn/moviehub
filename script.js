@@ -85,6 +85,14 @@ const movies = [
         genre: "Action • Horror",
         poster: "assets/residentevil.jpg",
         status: "AVAILABLE"
+    },
+
+    {
+        title: "Four Hands Two Sonatas",
+        year: "2026",
+        genre: "Music • Mystery",
+        poster: "assets/fourhandstwosonatas.jpg",
+        status: "AVAILABLE"
     }
 ];
 
